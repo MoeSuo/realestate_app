@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../../public/img/favicon-VRjetty.PNG";
+import logo from "../../../../public/favicon-VRjetty.png";
 // we should use the data from the mongodb as provided in the api (plants)
 import { links } from "../../../data/info"; // i corrected the path here
 

@@ -1,5 +1,5 @@
-import Button from "@/components/button/button";
-import Form from "@/components/form/form";
+import Button from "../components/button/button";
+import Form from "../components/form/form";
 import LayoutLeftImage from "@/components/layoutLeftImage";
 import Head from "next/head";
 import Image from "next/image";

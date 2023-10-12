@@ -18,7 +18,6 @@ import Head from "next/head";
 import "react-toastify/dist/ReactToastify.css";
 
 // import { Apart001 } from "./UserApart001";
-import CustomControlsGroup from './components/CustomControlsGroup';
 // import Model from './Building';
 import Navbar from "./components/navbar/navBar";
 import Model from "./components/Test";
