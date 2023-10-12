@@ -5,13 +5,14 @@ import {
   BsFillDatabaseFill,
   BsFillPeopleFill,
   BsPersonGear,
+  BsMailbox,
 } from "react-icons/bs";
 
 export default function Main() {
   return (
-    <section className="text-gray-600 body-font gradient-background">
+    <section className="text-gray-600 body-font gradient-background px-4">
       <div className="max-w-5xl pt-52 pb-24 mx-auto">
-        <h1 className="text-80 text-center text-6xl leading-extra-80 uppercase lh-6 ld-04 font-bold text-white mb-6">
+        <h1 className="text-80 text-center text-4xl leading-extra-80 uppercase lh-6 leading-relaxed  font-bold text-white mb-12 px-4">
           THE FUTURE OF PROPERTY TRANSACTIONS
         </h1>
         <h2 className="text-xl font-4 font-semibold lh-6 ld-04 pb-11 text-gray-400 text-center leading-[2rem] ">
@@ -20,7 +21,7 @@ export default function Main() {
           INTERACTIVE SALES APP
           <br />
         </h2>
-        <div href="/app" className="ml-6 text-center">
+        <div className=" text-center">
           {/* <Link
             className="inline-flex items-center py-3 font-semibold text-black transition duration-500 ease-in-out transform bg-opacity-70 bg-white px-7 text-md md:mt-0 hover:text-black hover:bg-white focus:shadow-outline"
             href="/index.htm"
@@ -43,7 +44,7 @@ export default function Main() {
           src="../../../img/home_bg_002.jpg"
         ></img>
       </div>
-      <h2 className=" pt-40 px-20 lg:leading-extra-80 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-200 lg:text-5xl md:text-6xl">
+      <h2 className=" pt-12 px-20 lg:leading-extra-80 mb-1 text-2xl font-semibold tracking-tighter text-center text-gray-200 lg:text-5xl md:text-6xl">
         Experience Real Estate Like Never Before
       </h2>
       <br></br>
@@ -52,7 +53,7 @@ export default function Main() {
       </p>
       <div
         id="feature"
-        className="pt-12 pb-24 max-w-4xl mx-auto fsac4 md:px-1 px-3"
+        className="pt-12  max-w-4xl mx-auto fsac4 md:px-1 px-3"
       >
         <div className="ktq4 my-8">
           {/* <img className="w-10" src="https://nine4.app/favicon.png"></img> */}
@@ -117,7 +118,7 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <div className="pt-32 pb-32 max-w-6xl mx-auto fsac4 md:px-1 px-3">
+      <div className="pt-12 pb-12 max-w-6xl mx-auto fsac4 md:px-1 px-3">
         <img src="https://cdn.pixabay.com/photo/2022/01/03/19/28/castle-6913460_1280.jpg"></img>
         <div className="ktq4 py-8">
           <h3 className="pt-3 font-semibold text-lg text-white">
@@ -131,7 +132,7 @@ export default function Main() {
           </p>
         </div>
         <div className="ktq4 py-8">
-          <img src="https://nine4.app/images/nine4-3.png"></img>
+        <BsMailbox className="text-white w-14 h-14" />
           <h3 className="pt-3 font-semibold text-lg text-white">
             Don't miss out on the opportunity to be part of the future of real
             estate.
@@ -148,7 +149,7 @@ export default function Main() {
           </p>
         </div>
       </div>
-      <section className="relative pb-24">
+      <section className="relative pb-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
           <div className="py-24 md:py-36">
             <h1 className="mb-5 text-6xl font-bold text-white">
@@ -159,7 +160,7 @@ export default function Main() {
             </h1>
             <input
               type="email"
-              placeholder="jack@example.com"
+              placeholder="Your Email"
               name="email"
               autoComplete="email"
               className="border border-gray-600 w-1/4 pr-2 pl-2 py-3 mt-2 rounded-md text-gray-800 font-semibold hover:border-gray-700 bg-black"

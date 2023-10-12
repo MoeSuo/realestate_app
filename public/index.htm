@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <!-- ////////////////added/////////////////// -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style-custom.css">
-    
-        <!-- ////////////////added/////////////////// -->
+    <!-- ////////////////added/////////////////// -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style-custom.css" />
+
+    <!-- ////////////////added/////////////////// -->
     <title>Interactive Real Estate App</title>
     <link rel="icon" href="./favicon-VRjetty.png" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -389,7 +400,7 @@
   <body>
     <script>
       ///////////////////////connect to database////////////////////////// -->
- 
+
       let apartments = [];
 
       const fetchData = async () => {
@@ -452,11 +463,11 @@
           const apart_003 = apartments[2].status;
 
           if (apart_003 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A03_go'], 'true');
-                tour.setObjectsVisibilityByID(['203'], true);
+            tour.setOverlaysVisibilityByTags(["A03_go"], "true");
+            tour.setObjectsVisibilityByID(["203"], true);
           } else if (apart_003 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A03_go'], 0);
-                tour.setObjectsVisibilityByID(['222'], true);
+            tour.setOverlaysVisibilityByTags(["A03_go"], 0);
+            tour.setObjectsVisibilityByID(["222"], true);
           }
         }
       }
@@ -468,11 +479,11 @@
           const apart_004 = apartments[3].status;
 
           if (apart_004 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A04_go'], 'true');
-            tour.setObjectsVisibilityByID(['207'], true);
+            tour.setOverlaysVisibilityByTags(["A04_go"], "true");
+            tour.setObjectsVisibilityByID(["207"], true);
           } else if (apart_004 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A04_go'], 0);
-            tour.setObjectsVisibilityByID(['226'], true);
+            tour.setOverlaysVisibilityByTags(["A04_go"], 0);
+            tour.setObjectsVisibilityByID(["226"], true);
           }
         }
       }
@@ -628,11 +639,11 @@
           const apart_014 = apartments[13].status;
 
           if (apart_014 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A014_go'], 'true');
-            tour.setObjectsVisibilityByID(['200'], true);
+            tour.setOverlaysVisibilityByTags(["A014_go"], "true");
+            tour.setObjectsVisibilityByID(["200"], true);
           } else if (apart_014 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A014_go'], 0);
-                tour.setObjectsVisibilityByID(['219'], true);
+            tour.setOverlaysVisibilityByTags(["A014_go"], 0);
+            tour.setObjectsVisibilityByID(["219"], true);
           }
         }
       }
@@ -644,11 +655,11 @@
           const apart_015 = apartments[14].status;
 
           if (apart_015 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A015_go'], 'true');
-                tour.setObjectsVisibilityByID(['199'], true);
+            tour.setOverlaysVisibilityByTags(["A015_go"], "true");
+            tour.setObjectsVisibilityByID(["199"], true);
           } else if (apart_015 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A015_go'], 0);
-                tour.setObjectsVisibilityByID(['218'], true);
+            tour.setOverlaysVisibilityByTags(["A015_go"], 0);
+            tour.setObjectsVisibilityByID(["218"], true);
           }
         }
       }
@@ -660,11 +671,11 @@
           const apart_016 = apartments[15].status;
 
           if (apart_016 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A016_go'], 'true');
-                tour.setObjectsVisibilityByID(['209'], true);
+            tour.setOverlaysVisibilityByTags(["A016_go"], "true");
+            tour.setObjectsVisibilityByID(["209"], true);
           } else if (apart_016 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A016_go'], 0);
-                tour.setObjectsVisibilityByID(['228'], true);
+            tour.setOverlaysVisibilityByTags(["A016_go"], 0);
+            tour.setObjectsVisibilityByID(["228"], true);
           }
         }
       }
@@ -676,11 +687,11 @@
           const apart_017 = apartments[16].status;
 
           if (apart_017 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A017_go'], 'true');
-            tour.setObjectsVisibilityByID(['213'], true);
+            tour.setOverlaysVisibilityByTags(["A017_go"], "true");
+            tour.setObjectsVisibilityByID(["213"], true);
           } else if (apart_017 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A017_go'], 0);
-                tour.setObjectsVisibilityByID(['232'], true);
+            tour.setOverlaysVisibilityByTags(["A017_go"], 0);
+            tour.setObjectsVisibilityByID(["232"], true);
           }
         }
       }
@@ -692,11 +703,11 @@
           const apart_018 = apartments[17].status;
 
           if (apart_018 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A018_go'], 'true');
-                tour.setObjectsVisibilityByID(['201'], true);
+            tour.setOverlaysVisibilityByTags(["A018_go"], "true");
+            tour.setObjectsVisibilityByID(["201"], true);
           } else if (apart_018 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A018_go'], 0);
-                tour.setObjectsVisibilityByID(['220'], true);
+            tour.setOverlaysVisibilityByTags(["A018_go"], 0);
+            tour.setObjectsVisibilityByID(["220"], true);
           }
         }
       }
@@ -708,11 +719,11 @@
           const apart_019 = apartments[18].status;
 
           if (apart_019 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A019_go'], 'true');
-            tour.setObjectsVisibilityByID(['216'], true);
+            tour.setOverlaysVisibilityByTags(["A019_go"], "true");
+            tour.setObjectsVisibilityByID(["216"], true);
           } else if (apart_019 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A019_go'], 0);
-                tour.setObjectsVisibilityByID(['235'], true);
+            tour.setOverlaysVisibilityByTags(["A019_go"], 0);
+            tour.setObjectsVisibilityByID(["235"], true);
           }
         }
       }
@@ -724,241 +735,329 @@
           const apart_020 = apartments[19].status;
 
           if (apart_020 === "Available") {
-            tour.setOverlaysVisibilityByTags(['A020_go'], 'true');
-                tour.setObjectsVisibilityByID(['211'], true);
+            tour.setOverlaysVisibilityByTags(["A020_go"], "true");
+            tour.setObjectsVisibilityByID(["211"], true);
           } else if (apart_020 === "Sold") {
-            tour.setOverlaysVisibilityByTags(['A020_go'], 0);
-                tour.setObjectsVisibilityByID(['230'], true);
+            tour.setOverlaysVisibilityByTags(["A020_go"], 0);
+            tour.setObjectsVisibilityByID(["230"], true);
           }
         }
       }
 
-
-
-
       // botton click *************************************************
-        // botton click *************************************************
-        function avail_Wrapper_Fun() {
-
-          ////////apartment-001////////
-          if (apartments && apartments.length > 0 && apartments[0].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A01_go'], true);
-            tour.setObjectsVisibilityByID(['34'], true);
-          }
-
-          ////////apartment-002////////
-          if (apartments && apartments.length > 0 && apartments[1].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A02_go'], 'true');
-                tour.setObjectsVisibilityByID(['215'], true);
-          }
-
-          ////////apartment-003////////
-          if (apartments && apartments.length > 0 && apartments[2].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A03_go'], 'true');
-            tour.setObjectsVisibilityByID(['203'], true);
-          }
-
-          ////////apartment-004////////
-          if (apartments && apartments.length > 0 && apartments[3].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A04_go'], 'true');
-                tour.setObjectsVisibilityByID(['207'], true);
-          }
-
-          ////////apartment-005////////
-          if (apartments && apartments.length > 0 && apartments[4].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A05_go'], 'true');
-                tour.setObjectsVisibilityByID(['208'], true);
-          }
-
-          ////////apartment-006////////
-          if (apartments && apartments.length > 0 && apartments[5].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A06_go'], 'true');
-                tour.setObjectsVisibilityByID(['202'], true);
-          }
-
-          ////////apartment-007////////
-          if (apartments && apartments.length > 0 && apartments[6].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A07_go'], 'true');
-                tour.setObjectsVisibilityByID(['206'], true);
-          }
-
-          ////////apartment-008////////
-          if (apartments && apartments.length > 0 && apartments[7].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A08_go'], 'true');
-                tour.setObjectsVisibilityByID(['214'], true);
-          }
-
-          ////////apartment-009////////
-          if (apartments && apartments.length > 0 && apartments[8].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A09_go'], 'true');
-            tour.setObjectsVisibilityByID(['205'], true);
-          }
-
-          ////////apartment-010////////
-          if (apartments && apartments.length > 0 && apartments[9].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A010_go'], 'true');
-                tour.setObjectsVisibilityByID(['204'], true);
-          }
-
-          ////////apartment-011////////
-          if (apartments && apartments.length > 0 && apartments[10].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A011_go'], 'true');
-                tour.setObjectsVisibilityByID(['210'], true);
-          }
-
-          ////////apartment-012////////
-          if (apartments && apartments.length > 0 && apartments[11].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A012_go'], 'true');
-                tour.setObjectsVisibilityByID(['198'], true);
-          }
-
-          ////////apartment-013////////
-          if (apartments && apartments.length > 0 && apartments[12].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A013_go'], 'true');
-                tour.setObjectsVisibilityByID(['212'], true);
-          }
-
-          ////////apartment-014////////
-          if (apartments && apartments.length > 0 && apartments[13].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A014_go'], 'true');
-                tour.setObjectsVisibilityByID(['200'], true);
-          }
-
-          ////////apartment-015////////
-          if (apartments && apartments.length > 0 && apartments[14].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A015_go'], 'true');
-                tour.setObjectsVisibilityByID(['199'], true);
-          }
-
-          ////////apartment-016////////
-          if (apartments && apartments.length > 0 && apartments[15].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A016_go'], 'true');
-            tour.setObjectsVisibilityByID(['209'], true);
-          }
-
-          ////////apartment-017////////
-          if (apartments && apartments.length > 0 && apartments[16].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A017_go'], 'true');
-                tour.setObjectsVisibilityByID(['213'], true);
-          }
-
-          ////////apartment-018////////
-          if (apartments && apartments.length > 0 && apartments[17].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A018_go'], 'true');
-                tour.setObjectsVisibilityByID(['201'], true);
-          }
-
-          ////////apartment-019////////
-          if (apartments && apartments.length > 0 && apartments[18].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A019_go'], 'true');
-                tour.setObjectsVisibilityByID(['216'], true);
-          }
-
-          ////////apartment-020////////
-          if (apartments && apartments.length > 0 && apartments[19].status === 'Available') {
-            tour.setOverlaysVisibilityByTags(['A020_go'], 'true');
-                tour.setObjectsVisibilityByID(['211'], true);
-          }
-
-
-
-
-
-
-
+      // botton click *************************************************
+      function avail_Wrapper_Fun() {
+        ////////apartment-001////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[0].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A01_go"], true);
+          tour.setObjectsVisibilityByID(["34"], true);
         }
 
-        // to hide all when rollout (write objects id and hs manully)
-        function avail_Wrapper_Fun_hide() {
-          tour.setObjectsVisibilityByID(['34', '36', '215', '234', '203', '222', '207', '226',
-              '208',
-              '227',
-              '202',
-              '221',
-              '206',
-              '225',
-              '214',
-              '233',
-              '205',
-              '224',
-              '204',
-              '223',
-              '210',
-              '229',
-              '198',
-              '217',
-              '212',
-              '231',
-              '200',
-              '219',
-              '199',
-              '218',
-              '209',
-              '228',
+        ////////apartment-002////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[1].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A02_go"], "true");
+          tour.setObjectsVisibilityByID(["215"], true);
+        }
 
-              '213',
-              '232',
+        ////////apartment-003////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[2].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A03_go"], "true");
+          tour.setObjectsVisibilityByID(["203"], true);
+        }
 
-              '201',
-              '220',
+        ////////apartment-004////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[3].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A04_go"], "true");
+          tour.setObjectsVisibilityByID(["207"], true);
+        }
 
-              '216',
-              '235',
+        ////////apartment-005////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[4].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A05_go"], "true");
+          tour.setObjectsVisibilityByID(["208"], true);
+        }
 
-              '211',
-              '230'
+        ////////apartment-006////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[5].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A06_go"], "true");
+          tour.setObjectsVisibilityByID(["202"], true);
+        }
 
-          ], false);
-          tour.setOverlaysVisibilityByTags(['A01_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A02_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A03_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A04_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A05_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A06_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A07_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A08_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A09_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A010_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A011_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A012_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A013_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A014_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A015_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A016_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A017_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A018_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A019_go'], 0);
-          tour.setOverlaysVisibilityByTags(['A020_go'], 0);
+        ////////apartment-007////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[6].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A07_go"], "true");
+          tour.setObjectsVisibilityByID(["206"], true);
+        }
 
+        ////////apartment-008////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[7].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A08_go"], "true");
+          tour.setObjectsVisibilityByID(["214"], true);
+        }
 
+        ////////apartment-009////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[8].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A09_go"], "true");
+          tour.setObjectsVisibilityByID(["205"], true);
+        }
+
+        ////////apartment-010////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[9].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A010_go"], "true");
+          tour.setObjectsVisibilityByID(["204"], true);
+        }
+
+        ////////apartment-011////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[10].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A011_go"], "true");
+          tour.setObjectsVisibilityByID(["210"], true);
+        }
+
+        ////////apartment-012////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[11].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A012_go"], "true");
+          tour.setObjectsVisibilityByID(["198"], true);
+        }
+
+        ////////apartment-013////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[12].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A013_go"], "true");
+          tour.setObjectsVisibilityByID(["212"], true);
+        }
+
+        ////////apartment-014////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[13].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A014_go"], "true");
+          tour.setObjectsVisibilityByID(["200"], true);
+        }
+
+        ////////apartment-015////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[14].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A015_go"], "true");
+          tour.setObjectsVisibilityByID(["199"], true);
+        }
+
+        ////////apartment-016////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[15].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A016_go"], "true");
+          tour.setObjectsVisibilityByID(["209"], true);
+        }
+
+        ////////apartment-017////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[16].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A017_go"], "true");
+          tour.setObjectsVisibilityByID(["213"], true);
+        }
+
+        ////////apartment-018////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[17].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A018_go"], "true");
+          tour.setObjectsVisibilityByID(["201"], true);
+        }
+
+        ////////apartment-019////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[18].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A019_go"], "true");
+          tour.setObjectsVisibilityByID(["216"], true);
+        }
+
+        ////////apartment-020////////
+        if (
+          apartments &&
+          apartments.length > 0 &&
+          apartments[19].status === "Available"
+        ) {
+          tour.setOverlaysVisibilityByTags(["A020_go"], "true");
+          tour.setObjectsVisibilityByID(["211"], true);
+        }
+      }
+
+      // to hide all when rollout (write objects id and hs manully)
+      function avail_Wrapper_Fun_hide() {
+        tour.setObjectsVisibilityByID(
+          [
+            "34",
+            "36",
+            "215",
+            "234",
+            "203",
+            "222",
+            "207",
+            "226",
+            "208",
+            "227",
+            "202",
+            "221",
+            "206",
+            "225",
+            "214",
+            "233",
+            "205",
+            "224",
+            "204",
+            "223",
+            "210",
+            "229",
+            "198",
+            "217",
+            "212",
+            "231",
+            "200",
+            "219",
+            "199",
+            "218",
+            "209",
+            "228",
+
+            "213",
+            "232",
+
+            "201",
+            "220",
+
+            "216",
+            "235",
+
+            "211",
+            "230",
+          ],
+          false
+        );
+        tour.setOverlaysVisibilityByTags(["A01_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A02_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A03_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A04_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A05_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A06_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A07_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A08_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A09_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A010_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A011_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A012_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A013_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A014_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A015_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A016_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A017_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A018_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A019_go"], 0);
+        tour.setOverlaysVisibilityByTags(["A020_go"], 0);
       } // avail_Wrapper_Fun-hide end
-
-
-
     </script>
     <div id="viewer" class="fill-viewport"></div>
 
-
     <div id="whatsapp">
-      <a class="wapp" href="https://api.whatsapp.com/send?phone=96550499919&amp;text=Test From your Website" class="footerBtns" role="button" aria-pressed="true"><i class="fa-brands fa-square-whatsapp"></i>whatsapp </a>
+      <a
+        class="wapp"
+        href="https://api.whatsapp.com/send?phone=96550499919&amp;text=Test From your Website"
+        class="footerBtns"
+        role="button"
+        aria-pressed="true"
+        ><i class="fa-brands fa-square-whatsapp"></i>whatsapp
+      </a>
       <!-- AddToAny BEGIN -->
-      <a class="a2a_dd" href="https://www.addtoany.com/share"><i class="fa-solid fa-share-from-square "></i>Share</a>
+      <a class="a2a_dd" href="https://www.addtoany.com/share"
+        ><i class="fa-solid fa-share-from-square"></i>Share</a
+      >
       <script>
-          var a2a_config = a2a_config || {};
-          a2a_config.onclick = 1;
+        var a2a_config = a2a_config || {};
+        a2a_config.onclick = 1;
       </script>
       <script async src="https://static.addtoany.com/menu/page.js"></script>
       <!-- AddToAny END -->
-  </div>
-  <script>
+    </div>
+    <script>
       function showContact() {
-          $("#whatsapp").css("display", "block");
+        $("#whatsapp").css("display", "block");
       }
-  </script>
+    </script>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

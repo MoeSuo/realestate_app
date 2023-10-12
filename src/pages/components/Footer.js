@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShareButton from "./ShareButton";
 
 export default function Footer() {
   return (
@@ -138,7 +139,8 @@ export default function Footer() {
             </ul>
           </li>
         </ul> */}
-        <div className="flex flex-col-reverse justify-center pt-5 pb-4 border-t lg:flex-row bg-top border-black">
+        <div 
+        className="mx-auto text-xl text-center text-black hover:text-gray-300 font-normal fs521 lg:w-3/3 bg-gray-200 hover:bg-gray-800  leading-[4rem] ">
           {/* <ul className="flex flex-col space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>
               <a
@@ -181,14 +183,13 @@ export default function Footer() {
               </a>
             </li>
           </ul> */}
-          <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-            <Link
+          <ShareButton />
+            {/* <Link
               href="/"
-              className="text-md text-gray-200 hover:text-white transition-colors duration-300 hover:text-deep-purple-accent-400 font-semibold tracking-tight"
+              className="mx-auto text-xl text-center text-gray-300 font-normal leading-relaxed fs521 lg:w-3/3"
             >
               Mohamed Sallam
-            </Link>
-          </ul>
+            </Link> */}
         </div>
       </div>
     </footer>

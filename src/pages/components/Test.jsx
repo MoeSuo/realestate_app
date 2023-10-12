@@ -60,15 +60,15 @@ const Model = () => {
       </div>
 
       {/* Display fetched data */}
-      <div>
+      {/* <div className='text-white justify-center items-center '>
         <h2>Fetched Apartments:</h2>
         <ul>
-            {/* Assuming 'name' is a property of the apartment object */}
+          
           {apartments.map((apartment) => (
             <li key={apartment.id}>{apartment.status}</li> 
           ))}
         </ul>
-      </div>
+      </div> */}
     </>
   );
 };
