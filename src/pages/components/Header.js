@@ -2,15 +2,12 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import UserMenu from "../../pages/components/userMenu/userMenu";
-import { signOut, useSession } from "next-auth/react";
 import { links } from "../../data/info"; // i corrected the path here
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [flyer, setFlyer] = React.useState(false);
   const [flyerTwo, setFlyerTwo] = React.useState(false);
-  const { data: session } = useSession();
   const [userMenuOpen, setUserMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
@@ -245,16 +242,7 @@ export default function Header() {
                 />
               </svg>
             </button>
-            {userMenuOpen ? (
-              <UserMenu
-                user={session?.user}
-                signOut={() =>
-                  signOut({ callbackUrl: "http://localhost:3000/" })
-                }
-              />
-            ) : (
-              ""
-            )}
+
           </div>
         </div>
       </div>

@@ -11,18 +11,15 @@ import "react-toastify/dist/ReactToastify.css";
 // import { UserViewer } from "./user-viewer";
 // import CustomControlsGroup from './components/CustomControlsGroup';
 // import Model from './Building';
-import Provider from "../pages/context/AuthContext";
 
 function App({ Component, pageProps }) {
   // Use the layout defined at the page level, if available
   const getLayout = Component.getLayout || ((page) => page);
   
   return (<>
-    <Provider>
           <ToastContainer />
     <Component {...pageProps} />
 
-    </Provider>
     </>
     );
   }

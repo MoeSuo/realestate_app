@@ -6,8 +6,8 @@ export default function Form(props) {
   props.fields.forEach((field) => {
     initialFields[field.name] = field.value;
   });
+  console.log(initialFields);
 
-  // console.log(initialFields);
   const [formValue, setFormValue] = useState(initialFields);
 
   const handleChange = (e) => {
