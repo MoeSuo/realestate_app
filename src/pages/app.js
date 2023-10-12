@@ -19,7 +19,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 // import { Apart001 } from "./UserApart001";
 // import Model from './Building';
-import Navbar from "./components/navbar/navBar";
 import Model from "./components/Test";
 // import UserViewer from "./user-viewer";
 
@@ -70,7 +69,6 @@ export default function App() {
     </div>
 
 
-     <Navbar onSignOut={handleSignOut}  />
       <Canvas shadows camera={{ position: [200, 140, 180], near: 0.01,
     far: 10000000, }} >
       <directionalLight castShadow position={[180, 100, 15]} shadow-mapSize={[4069, 4069]}></directionalLight>
