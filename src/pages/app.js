@@ -4,9 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Environment, ContactShadows } from "@react-three/drei";
 import { ToastContainer } from "react-toastify";
-import { useSession, signOut, signIn } from "next-auth/react";
 
-import { getSession } from "next-auth/react";
 
 import { NextSeo } from "next-seo";
 import Header from "../pages/components/Header";
@@ -24,9 +22,7 @@ import Model from "./components/Test";
 
 export default function App() {
 
-    const { data: session } = useSession(); // Retrieve the user session
 
-  const [showModel, setShowModel] = useState(!!session);
   
   const handleSignOut = async () => {
     // Sign the user out using the signOut function from NextAuth.js
@@ -35,15 +31,6 @@ export default function App() {
     // Update showModel state to false after signing out
     setShowModel(false);
   };
-  // Use useEffect to ensure session is fetched on the client side
-  useEffect(() => {
-    async function fetchSession() {
-      const session = await getSession();
-      setShowModel(!!session);
-    }
-
-    fetchSession();
-  }, []); // Empty dependency array means this effect runs once, like componentDidMount
 
 
 
