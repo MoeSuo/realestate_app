@@ -1,0 +1,84 @@
+.form-select {
+  width: 350px !important;
+}
+.action {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#apart_01_save,
+#apart_02_save,
+#apart_03_save, 
+#apart_04_save, 
+#apart_05_save, 
+#apart_06_save, 
+#apart_07_save, 
+#apart_08_save, 
+#apart_09_save, 
+#apart_010_save, 
+#apart_011_save, 
+#apart_012_save, 
+#apart_013_save, 
+#apart_014_save, 
+#apart_015_save, 
+#apart_016_save, 
+#apart_017_save, 
+#apart_018_save, 
+#apart_019_save, 
+#apart_020_save
+{
+  display: none;
+  background-color: red;
+}
+th,
+td {
+  width: 30%;
+}
+
+
+ #whatsapp {
+display: none;
+position: relative;
+    z-index: 999; 
+    width: 15vw;top: 30px;
+}  
+ .wapp {
+  position: relative;
+  z-index: 999;     width: 14rem;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;color: black;
+  display: flex;font-size: 1.5rem;text-decoration: none;
+  justify-content: space-evenly;
+  align-items: center;
+}  
+ .a2a_dd {
+
+  margin-top: 1rem;
+  position: relative;
+  z-index: 999;
+  width: 12rem;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: none;
+  justify-content: space-evenly;
+  align-items: center;
+}  
+.a2a_full_footer{
+  display: none !important;
+}
+.fa-square-whatsapp, .fa-share-from-square{
+  font-size: 3rem;
+  color: black;
+}
+#a2apage_dropdown{
+  left: 1.5rem !important;
+margin-top: 2rem;
+}
+.a2a_menu a{
+  color: #2A2A2A !important;
+}
