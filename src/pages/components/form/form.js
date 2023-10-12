@@ -2,13 +2,10 @@ import { useState } from "react";
 import FormInput from "./input/formInput";
 
 export default function Form(props) {
-  const initialFields = {};
-  props.fields.forEach((field) => {
-    initialFields[field.name] = field.value;
-  });
+
 
   // console.log(initialFields);
-  const [formValue, setFormValue] = useState(initialFields);
+  const [formValue, setFormValue] = useState("initialFields");
 
   const handleChange = (e) => {
     setFormValue({ ...formValue, [e.target.name]: e.target.value });
