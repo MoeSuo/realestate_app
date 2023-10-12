@@ -1,36 +1,17 @@
 
 
-import React, { useState, useEffect } from "react";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Environment, ContactShadows } from "@react-three/drei";
-import { ToastContainer } from "react-toastify";
+import React from "react";
+
 
 
 import { NextSeo } from "next-seo";
-import Header from "../pages/components/Header";
-import Main from "../pages/components/Main";
-import Footer from "../pages/components/Footer";
+
 import Head from "next/head";
 
 
-import "react-toastify/dist/ReactToastify.css";
 
-// import { Apart001 } from "./UserApart001";
-// import Model from './Building';
-import Model from "./components/Test";
-// import UserViewer from "./user-viewer";
 
 export default function App() {
-
-
-  
-  const handleSignOut = async () => {
-    // Sign the user out using the signOut function from NextAuth.js
-    await signOut();
-
-    // Update showModel state to false after signing out
-    setShowModel(false);
-  };
 
 
 
@@ -50,23 +31,10 @@ export default function App() {
         <title>VRjetty-APP</title>
         <link rel="icon" href="/img/favicon-VRjetty.png" />
       </Head>
-      {/* <Header /> */}
-      {/* <Main /> */}
-      {/* <Footer /> */}
+   
     </div>
 
 
-      <Canvas shadows camera={{ position: [200, 140, 180], near: 0.01,
-    far: 10000000, }} >
-      <directionalLight castShadow position={[180, 100, 15]} shadow-mapSize={[4069, 4069]}></directionalLight>
-        <Environment preset="park" />
-        {/* {showModel ? <Model /> : <UserViewer />} */}
-        
-        <ContactShadows position={[0, -0.8, 0]} color="#000000" />
-        <OrbitControls />
-        <CustomControlsGroup apartmentId={"64f316c3e2c0ebaecf4cbc1c"} />
-      </Canvas>
-      <ToastContainer />
     </>
   );
 }
