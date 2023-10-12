@@ -1,9 +1,9 @@
 import Button from "../components/button/button";
 import Form from "../components/form/form";
-import LayoutLeftImage from "@/components/layoutLeftImage";
+import LayoutLeftImage from "../components/layoutLeftImage";
 import Head from "next/head";
 import Image from "next/image";
-import logo from "/public/images/logo-box.png";
+import logo from "../../../public/img/logo.png"
 import axios from "axios";
 import { toast } from "react-toastify";
 
