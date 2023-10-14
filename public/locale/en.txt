@@ -26,13 +26,13 @@ model_44A4F707_5286_211D_41C8_18C3736B4125.label = newStart_03
 
 ### Button
 Button_4C975729_5282_2115_41C3_92F87C909927.label = Back To Main View
+Button_4C975729_5282_2115_41C3_92F87C909927_mobile.label = Back To Main View
 Button_3CEA881A_5382_2F36_41C5_E36F1A8CCAB8.label = ENTER
 Button_3CEA881A_5382_2F36_41C5_E36F1A8CCAB8_mobile.label = ENTER
-Button_4C975729_5282_2115_41C3_92F87C909927_mobile.label = Hide All
-Button_4D04BE3F_5282_236E_41D1_8C00B8EC7C73.label = Hide Landscape
 Button_4D04BE3F_5282_236E_41D1_8C00B8EC7C73_mobile.label = Hide Landscape
-Button_4202AE26_518E_EA95_41B4_9F296EF3BF8A_mobile.label = Show Available Units
+Button_4D04BE3F_5282_236E_41D1_8C00B8EC7C73.label = Hide Landscape
 Button_6DD785B4_1ED4_9FB1_41B8_A99C8EB88501.label = Show Available Units
+Button_6DD785B4_1ED4_9FB1_41B8_A99C8EB88501_mobile.label = Show Available Units
 Button_42A12CAA_518E_2F9C_41B8_EA6F84A626AA.label = Show Landscape
 Button_42A12CAA_518E_2F9C_41B8_EA6F84A626AA_mobile.label = Show Landscape
 
