@@ -15,6 +15,25 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
+    <>
+      {/* <Google tag (gtag.js) />  */}
+      <div className="container">
+        <Script id="google-analytics">
+          {`
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8G9DJR4Y4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R8G9DJR4Y4');
+</script>
+`}
+        </Script>
+      </div>
+
+
     <main
       // className={`flex min-h-screen flex-col items-center justify-between  ${inter.className}`}
       className={`  ${inter.className}`}
@@ -71,5 +90,6 @@ export default function Home() {
 </div> */}
 
     </main>
+    </>
   )
 }
