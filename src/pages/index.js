@@ -9,6 +9,7 @@ import Footer from "../pages/components/Footer";
 import Head from "next/head";
 // import MapBox from './components/map';
 import Model from './components/Test';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,6 +34,25 @@ export default function Home() {
       <Head>
         <title>VRjetty</title>
         <link rel="icon" href="/img/favicon-VRjetty.png" />
+
+
+
+        {/* <Sendinblue />  */}
+<Script >
+{`
+        (function(d, w, c) {
+        w.BrevoConversationsID = '652b6be1a819886ce04f8aea';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+    `}
+    </Script>
+
       </Head>
       <Header />
       <Main />
