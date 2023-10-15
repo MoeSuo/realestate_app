@@ -18,6 +18,24 @@ export default function App() {
 
   return (
     <>
+
+            {/* <Google tag (gtag.js) />  */}
+            <div className="container">
+        <Script id="google-analytics">
+          {`
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8G9DJR4Y4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R8G9DJR4Y4');
+</script>
+`}
+        </Script>
+      </div>
+      
      <div className="text-black bg-black">
       <NextSeo
         title="Home: VRjetty"
