@@ -1,6 +1,7 @@
 
 
 import React from "react";
+import Script from 'next/script';
 
 
 
@@ -35,7 +36,7 @@ export default function App() {
 `}
         </Script>
       </div>
-      
+
      <div className="text-black bg-black">
       <NextSeo
         title="Home: VRjetty"
