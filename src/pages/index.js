@@ -16,8 +16,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      {/* <Google tag (gtag.js) />  */}
-      <div className="container">
+        {/* <Google tag (gtag.js) />  */}
+        <div className="container">
         <Script id="google-analytics">
           {`
 

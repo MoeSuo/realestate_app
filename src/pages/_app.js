@@ -37,7 +37,7 @@ function App({ Component, pageProps }) {
 `}
         </Script>
       </div>
-      
+
 
 {/* <Sendinblue />  */}
 <Script >
