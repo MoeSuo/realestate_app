@@ -20,8 +20,8 @@ export default function App() {
   return (
     <>
 
-            {/* <Google tag (gtag.js) />  */}
-            <div className="container">
+                {/* <Google tag (gtag.js) />  */}
+        <div className="container">
         <Script id="google-analytics">
           {`
 
