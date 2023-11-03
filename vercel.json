@@ -3,6 +3,10 @@
     {
       "source": "/real-estate-sales-app",
       "destination": "/real-estate-sales-app.html"
+    },
+    {
+      "source": "/https://www.vrjetty.com/blog",
+      "destination": "/"
     }
   ]
 }
