@@ -70,7 +70,7 @@ export default function Header() {
             </Link>
 
             <Link
-              href="/index.htm"
+              href="/real-estate-sales-app.html"
               target="_blank"
               className="mr-5 cursor-pointer text-gray-300 hover:text-white font-semibold tr04"
             >

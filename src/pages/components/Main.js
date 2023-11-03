@@ -30,7 +30,7 @@ export default function Main() {
           </Link> */}
           <Link
             className="inline-flex items-center py-3 font-semibold tracking-tighter text-white transition duration-500 ease-in-out transform bg-transparent ml-11 bg-gradient-to-r from-blue-500 to-blue-800 px-14 text-md md:mt-0 focus:shadow-outline"
-            href="/index.htm" target="_blank"
+            href="/real-estate-sales-app.html" target="_blank"
           >
             Demo
           </Link>
