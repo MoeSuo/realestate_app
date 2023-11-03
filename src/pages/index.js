@@ -34,6 +34,22 @@ export default function Home() {
       </div>
 
 
+        {/* <Sendinblue />  */}
+        <Script >
+{`
+        (function(d, w, c) {
+        w.BrevoConversationsID = '652b6be1a819886ce04f8aea';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'BrevoConversations');
+    `}
+    </Script>
+
     <main
       // className={`flex min-h-screen flex-col items-center justify-between  ${inter.className}`}
       className={`  ${inter.className}`}
@@ -55,22 +71,6 @@ export default function Home() {
         <link rel="icon" href="/img/favicon-VRjetty.png" />
 
 
-
-        {/* <Sendinblue />  */}
-<Script >
-{`
-        (function(d, w, c) {
-        w.BrevoConversationsID = '652b6be1a819886ce04f8aea';
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        var s = d.createElement('script');
-        s.async = true;
-        s.src = 'https://conversations-widget.brevo.com/brevo-conversations.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'BrevoConversations');
-    `}
-    </Script>
 
       </Head>
       <Header />
