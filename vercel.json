@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/real-estate-sales-app",
+      "destination": "/real-estate-sales-app.html"
+    }
+  ]
+}
