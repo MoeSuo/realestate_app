@@ -1,0 +1,44 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_BA387120_AFA9_2ED2_41DD_50AE25499B07.source = https://www.vrjetty.com/
+
+## Media
+
+### Audio
+audiores_EB947C13_AB8B_26E4_41D1_B4FF3BC3FFD3.mp3Url = media/audio_9404E649_AB8B_E364_41E0_C63D25D0719C_en.mp3
+
+### Title
+video_B9F1D367_AABD_E12D_41D6_C11BBB4D34CA.label = horse
+video_B8FC9C32_AAB7_2724_41A6_57CF61E83BD6.label = pano_01_1 - Panorama (VR2 Edit 2)
+panorama_A23F5503_AFE9_D6D6_41E2_47951D622EB3.label = نقـــطــة 1
+panorama_A321F63F_AFE9_332E_41BA_6A82C15A06EB.label = نقـــطــة 2
+
+### Video
+videolevel_B16D0BD5_BE4B_CF28_41CB_F8E51F7F78E1.url = media/video_B8FC9C32_AAB7_2724_41A6_57CF61E83BD6_en.mp4
+videolevel_B16D0BD5_BE4B_CF28_41CB_F8E51F7F78E1.posterURL = media/video_B8FC9C32_AAB7_2724_41A6_57CF61E83BD6_poster_en.jpg
+videolevel_B16CDBF7_BE4B_CEE8_41E3_76B6FDBC4A8A.url = media/video_B9F1D367_AABD_E12D_41D6_C11BBB4D34CA_en.mp4
+videolevel_B16CDBF7_BE4B_CEE8_41E3_76B6FDBC4A8A.posterURL = media/video_B9F1D367_AABD_E12D_41D6_C11BBB4D34CA_poster_en.jpg
+
+### Video Subtitles
+
+## Right Click Menu
+
+### Text
+menuItem_BB06B93F_AFAB_512F_41D3_2FF7A58C4E4B.label = Developed By: Mohamed Sallam
+
+## Tour
+
+### Description
+
+### Title
+tour.name = saudi (Duplicated)
+
+## VR Menu
+
+### Text
+Menu_A53B86F4_AA95_232C_41E4_463AFB121ADA.label = قـــائـــمــة 
+MenuItem_B1023D71_BE4B_CBE8_41B7_30339AE6F83C.label = نقـــطــة 1
+MenuItem_B1021D71_BE4B_CBE8_41DD_BE81F99B4BDB.label = نقـــطــة 2
